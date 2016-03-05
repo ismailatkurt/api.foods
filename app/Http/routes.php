@@ -28,5 +28,5 @@
 use Illuminate\Routing\Router;
 
 Route::group(['middleware' => 'cors'], function(Router $router){
-    $router->get('season', 'SeasonController@index');
+    $router->get('/', 'SeasonController@index');
 });
