@@ -32,6 +32,7 @@ Route::get('product/{id}', 'ProductController@show');
 Route::post('product', 'ProductController@store');
 
 Route::get('season', 'SeasonController@index');
+Route::get('season/{season}', 'SeasonController@show');
 
 
 Route::get('/', function () {

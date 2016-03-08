@@ -75,6 +75,11 @@
                 <p>To fetch all seasons data</p>
                 <p><b>GET ===> /season</b></p>
             </li>
+            <li>
+                <h4>List products by season</h4>
+                <p>Display products according to season.</p>
+                <p><b>GET ===> /season/{seasonname}</b></p>
+            </li>
         </ul>
     </div>
 </div>
