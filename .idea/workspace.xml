@@ -27,8 +27,8 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77" vertical-offset="733" max-vertical-offset="2464">
-              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.8211111" vertical-offset="986" max-vertical-offset="2763">
+              <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -43,13 +43,13 @@
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SeasonController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_03_05_125546_create_products_table.php" />
         <option value="$PROJECT_DIR$/app/Product.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MainController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SeasonController.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
@@ -495,47 +495,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6388889" vertical-offset="0" max-vertical-offset="1498">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.6388889" vertical-offset="0" max-vertical-offset="1567">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <marker date="1457459263000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1457459263000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457459263000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457459263000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460725000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1457460725000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460725000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460725000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28444445" vertical-offset="296" max-vertical-offset="2487">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="42" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.38333333" vertical-offset="0" max-vertical-offset="2487">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
-            <marker date="1457458983000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder=" List all products. ..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder=" Display requested resource. ..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457458983000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460837000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder=" List all products. ..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder=" Display requested resource. ..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460837000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SeasonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56222224" vertical-offset="46" max-vertical-offset="1544">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <marker date="1457460951000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457460951000" expanded="true" signature="-1:-1" placeholder=" List all seasons. ..." />
+            <marker date="1457460951000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1457460951000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460951000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457460951000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77" vertical-offset="733" max-vertical-offset="2464">
-          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.8211111" vertical-offset="986" max-vertical-offset="2763">
+          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
           <folding />
         </state>
       </provider>

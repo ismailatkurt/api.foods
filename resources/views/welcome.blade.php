@@ -39,6 +39,10 @@
         hr {
             width: 100%;
         }
+        h3 {
+            margin-left: 20px;
+            font-family: Arial sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +50,7 @@
     <div class="content">
         <div class="title">Seasonal Foods Basic Api</div>
         <hr/>
+        <h3>Product</h3>
         <ul>
             <li>
                 <h4>List all products</h4>
@@ -61,6 +66,14 @@
                 <h4>Store a new product</h4>
                 <p>To store a new product</p>
                 <p><b>POST ===>  /product</b></p>
+            </li>
+        </ul>
+        <h3>Season</h3>
+        <ul>
+            <li>
+                <h4>List all seasons</h4>
+                <p>To fetch all seasons data</p>
+                <p><b>GET ===> /season</b></p>
             </li>
         </ul>
     </div>
