@@ -57,6 +57,11 @@
                 <p>To display a specific product</p>
                 <p><b>GET ===>  /product/{id}</b></p>
             </li>
+            <li>
+                <h4>Store a new product</h4>
+                <p>To store a new product</p>
+                <p><b>POST ===>  /product</b></p>
+            </li>
         </ul>
     </div>
 </div>
