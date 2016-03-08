@@ -27,6 +27,10 @@
 
 use Illuminate\Routing\Router;
 
-Route::group(['middleware' => 'cors'], function(Router $router){
-    $router->get('/', 'SeasonController@index');
+Route::get('product', 'ProductController@index');
+Route::get('product/{id}', 'ProductController@show');
+Route::post('product', 'ProductController@store');
+
+Route::get('/', function () {
+    return view('welcome', ['name' => 'James']);
 });
